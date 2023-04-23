@@ -19,15 +19,15 @@
 
 2) Double Linked List - A doubly linked list is a data structure that consists of a sequence of elements, each of which contains a value and pointers to both the previous and next elements in the list. This allows for efficient traversal of the list in both directions, as well as insertion and deletion of elements at any position in the list. The structure of a doubly linked list is such that each element contains a reference to the previous and next elements in the list. This allows for efficient traversal of the list in either direction by following the appropriate pointers. Additionally, inserting or deleting an element in the middle of the list only requires updating the pointers of the adjacent elements, rather than the entire list. Doubly linked lists have several advantages over other data structures, including the ability to efficiently insert or delete elements at any position in the list and the ability to efficiently traverse the list in both directions. However, they require additional memory to store the extra pointers, and the pointers themselves can be a source of bugs if not properly managed. Additionally, doubly linked lists may not be as efficient as other data structures, such as arrays or singly linked lists, for certain operations such as indexing or sequential traversal.
 
-3) Graph - A graph is a data structure that represents a set of objects, called vertices or nodes, and the connections between them, called edges. Graphs can be used to model a wide range of relationships, from social networks to physical systems, and are a fundamental tool in computer science and other fields. In a graph, vertices are typically represented as points or circles, and edges are represented as lines or arrows connecting pairs of vertices. The edges can be directed or undirected, meaning that they either point in a specific direction or allow for movement in either direction. The connections between vertices can also be weighted, meaning that each edge has a numerical value that represents a cost, distance, or other attribute.
+3) Graph - A graph is a data structure that represents a set of objects, called vertices or nodes, and the connections between them, called edges. Graphs can be used to model a wide range of relationships, from social networks to physical systems, and are a fundamental tool in computer science and other fields. In a graph, vertices are typically represented as points or circles, and edges are represented as lines or arrows connecting pairs of vertices. The edges can be directed or undirected, meaning that they either point in a specific direction or allow for movement in either direction. The connections between vertices can also be weighted, meaning that each edge has a numerical value that represents a cost, distance, or other attribute.<br>
 Graphs can be classified according to their structure and properties. Some common types of graphs include:
-Directed graphs (digraphs), where edges have a direction
-Undirected graphs, where edges do not have a direction
-Weighted graphs, where edges have a numerical weight
-Bipartite graphs, where vertices can be divided into two disjoint sets, with edges only connecting vertices from different sets
-Complete graphs, where every pair of vertices is connected by an edge
-Sparse graphs, where only a small fraction of possible edges are present
-Dense graphs, where a large fraction of possible edges are present
+a) Directed graphs (digraphs), where edges have a direction
+b) Undirected graphs, where edges do not have a direction
+c) Weighted graphs, where edges have a numerical weight
+d) Bipartite graphs, where vertices can be divided into two disjoint sets, with edges only connecting vertices from different sets
+e) Complete graphs, where every pair of vertices is connected by an edge
+f) Sparse graphs, where only a small fraction of possible edges are present
+g) Dense graphs, where a large fraction of possible edges are present<br>
 Graphs are a powerful tool for modeling complex systems and can be used for a variety of applications, such as route planning, social network analysis, and data visualization. However, the complexity of graph algorithms can make them computationally expensive for very large graphs, and the interpretation of graph structures and properties can be challenging.
 
 
