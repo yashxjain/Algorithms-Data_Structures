@@ -41,3 +41,21 @@ c) Traversal: visiting each node in the list to perform some operation on its va
 d) Searching: finding the node containing a specific value<br>
 e) Concatenation: combining two lists into a single list<br>
 Singly linked lists have several advantages over other data structures, such as arrays or doubly linked lists, for certain operations, including O(1) time complexity for insertion and deletion at the beginning of the list, and the ability to efficiently grow and shrink the list. However, accessing elements in the middle of the list can be slow, and they require more memory overhead than arrays for storing the references to the next node.
+
+7) Tree - A tree is a hierarchical data structure consisting of nodes connected by edges. Each node in a tree has a parent node (except for the root node), zero or more child nodes, and a value. The root node is the topmost node in the tree, while leaf nodes have no children. Trees are widely used in computer science for representing hierarchical relationships, such as file systems, organization charts, and family trees. They are also used in algorithms for searching, sorting, and data compression.<br>
+Common types of trees include:<br>
+Binary tree: a tree in which each node has at most two children<br>
+Binary search tree: a binary tree in which the left child is always less than the parent node, and the right child is always greater than the parent node<br>
+AVL tree: a self-balancing binary search tree that ensures a height difference of at most one between the left and right subtrees<br>
+B-tree: a tree data structure that allows for efficient disk access and is commonly used in databases and file systems<br>
+Operations on trees include:<br>
+Traversal: visiting each node in the tree in a specific order, such as pre-order, in-order, and post-order<br>
+Searching: finding a node with a specific value in the tree<br>
+Insertion: adding a new node to the tree<br>
+Deletion: removing a node from the tree<br>
+Height: determining the maximum depth of the tree<br>
+Trees have several advantages over other data structures, such as arrays and linked lists, for certain operations, including efficient searching and sorting, and the ability to represent hierarchical relationships. However, they can be complex to implement and require additional memory overhead for storing the node references.
+
+
+
+
