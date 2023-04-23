@@ -34,13 +34,10 @@ Graphs are a powerful tool for modeling complex systems and can be used for a va
 
 5) Queue - A queue is a linear data structure that allows for the insertion of elements at the rear and removal of elements from the front. It follows the First-In-First-Out (FIFO) principle, which means that the first element added to the queue will be the first one to be removed. A queue typically has two main operations: enqueue (adding an element to the rear of the queue) and dequeue (removing an element from the front of the queue). Other operations, such as peek (viewing the front element without removing it) and size (determining the number of elements in the queue), are also commonly supported. Queues can be implemented using an array, a linked list, or other data structures. In an array implementation, a circular buffer is often used to avoid the need for shifting elements when dequeueing. In a linked list implementation, each node contains a value and a pointer to the next node in the queue. Queues are widely used in computer science and everyday life for a variety of applications, such as task scheduling, message passing, and buffer management. They are also used in conjunction with other data structures, such as stacks, to implement more complex algorithms and data structures.
 
-6) Singly Linked List - A singly linked list is a linear data structure consisting of a sequence of nodes, where each node contains a value and a reference (pointer) to the next node in the list. The first node in the list is called the head, and the last node is called the tail. If the tail node has a null reference, the list is said to be singly linked.Singly linked lists are used to implement dynamic data structures, such as stacks, queues, and hash tables. They allow for efficient insertion and removal of elements at the beginning or end of the list, but accessing elements in the middle of the list can be slow, as it requires traversing the list from the beginning.
-
-Common operations on a singly linked list include:
-
-Insertion: adding a new node to the beginning or end of the list
-Deletion: removing a node from the beginning or end of the list
-Traversal: visiting each node in the list to perform some operation on its value
-Searching: finding the node containing a specific value
-Concatenation: combining two lists into a single list
+6) Singly Linked List - A singly linked list is a linear data structure consisting of a sequence of nodes, where each node contains a value and a reference (pointer) to the next node in the list. The first node in the list is called the head, and the last node is called the tail. If the tail node has a null reference, the list is said to be singly linked.Singly linked lists are used to implement dynamic data structures, such as stacks, queues, and hash tables. They allow for efficient insertion and removal of elements at the beginning or end of the list, but accessing elements in the middle of the list can be slow, as it requires traversing the list from the beginning. <br>Common operations on a singly linked list include:<br>
+a) Insertion: adding a new node to the beginning or end of the list<br>
+b) Deletion: removing a node from the beginning or end of the list<br>
+c) Traversal: visiting each node in the list to perform some operation on its value<br>
+d) Searching: finding the node containing a specific value<br>
+e) Concatenation: combining two lists into a single list<br>
 Singly linked lists have several advantages over other data structures, such as arrays or doubly linked lists, for certain operations, including O(1) time complexity for insertion and deletion at the beginning of the list, and the ability to efficiently grow and shrink the list. However, accessing elements in the middle of the list can be slow, and they require more memory overhead than arrays for storing the references to the next node.
